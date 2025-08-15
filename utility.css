@@ -1,0 +1,30 @@
+.border{
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+.flex{
+    display: flex;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.items-center{
+    align-items: center;
+}
+
+.color-white{
+    color: #A5A5A5;
+    font-size: 14px;
+}
+
+.footer-logo-size{
+    width: 1rem;
+    height: 1rem;
+}
+
+.footer-transtion:hover{
+    background-color: #F7F7F7;
+}

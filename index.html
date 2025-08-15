@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>utkarsspotify.com</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utility.css">
+    <link rel="shortcut icon" href="https://open.spotify.com/favicon.ico" type="image/x-icon">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+</head>
+
+<body>
+    <header>
+        <div class="navbar">
+            <div class="logo"><img src="assets/logo.svg" alt=""></div>
+            <div class="middle-nav">
+                <div class="home-logo-div"><img src="assets/home.svg" class="home-logo" title="home-logo"></div>
+                <div class="search-bar-div">
+                    <div class="search-logo-div"><img src="assets/search.svg" alt="" class="search-logo"></div>
+                    <input type="search" name="search" id="search-bar" class="search-bar color-white"
+                        placeholder="What do u want to play?">
+                    <div class="browser"><img src="assets/browse.svg" alt="" class="browser-logo"></div>
+                </div>
+            </div>
+
+            <div class="right-nav">
+                <div class="premium"><span>Explore Premium</span></div>
+                <div class="install">
+                    <img src="assets/download.svg" alt="" class="download-logo">
+                    <span>Install App</span>
+                </div>
+                <div class="noti-div"><img src="assets/noti.svg" alt="" class="noti-logo"></div>
+                <img src="assets/friends.svg" alt="" class="friends-logo">
+                <div class="sign-up"><span>Sign Up</span></div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="playlist">
+            <div class="play-header">
+
+                <h4>Your Library</h4>
+                <div class="create-div">
+                    <div class="add-div"><img src="assets/add.svg" alt=""></div>
+                    <span>Create</span>
+                </div>
+            </div>
+
+            <div class="play-lower-header">
+                <div class="inner-playlist">Playlist</div>
+                <div class="artist">Artist</div>
+            </div>
+            <div class="play-search">
+                <div class="play-search-logo"><img src="assets/search.svg" alt=""></div>
+                <div class="recents">
+
+                    <span>Recents</span>
+                    <div class="bar-logo"><img src="assets/bar.svg" alt=""></div>
+                </div>
+            </div>
+            <div class="play-main color-white">
+                <div class="songs-list">
+                    <ol>
+                        <!-- <li>
+                            <div class="inside-list-1">
+                                <img src="assets/music.svg" class="music-svg" alt="">
+                                <div class="info">
+                                    <div>Song name</div>
+                                    <div>Song's Artist</div>
+                                </div>
+                            </div>
+                            <div class="inside-list">
+                                <div>play now</div>
+                                <img src="assets/play_circle_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg" alt="">
+                            </div>
+                        </li> -->
+                    </ol>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="line">
+            <div class="in-line"></div>
+        </div>
+
+
+        <div class="hero">
+            <div class="hero-header">
+                <h2>Spotify Playlists</h2>
+            </div>
+            <div class="hero-inside">
+
+                <!-- <div data-folder="playlist1" class="div-hero">
+                    <div class="svg-play-card-div flex justify-center items-center"><img src="assets/play.svg" alt=""
+                            class="svg-play-card">
+                    </div>
+                    <div class="card"><img
+                            src="https://pickasso.spotifycdn.com/image/ab67c0de0000deef/dt/v1/img/radio/artist/1mYsTxnqsietFxj1OgoGbG/en"
+                            title="second-card" class="card-img border">
+                    </div>
+                    <div class="card-footer">
+                        <span class="color-white">With Sachin-Jigar,Atif Aslam, Jeet Ganguli... </span>
+                    </div>
+                </div> -->
+
+
+                <!-- <div data-folder="playlist2" class="div-hero">
+                    <div class="svg-play-card-div flex justify-center items-center"><img src="assets/play.svg" alt=""
+                            class="svg-play-card">
+                    </div>
+                    <div class="card"><img
+                            src="https://pickasso.spotifycdn.com/image/ab67c0de0000deef/dt/v1/img/radio/artist/1mYsTxnqsietFxj1OgoGbG/en"
+                            title="second-card" class="card-img border">
+                    </div>
+
+                    <div class="card-footer">
+                        <span class="color-white">With G.V. Praksh, Yuvan Shanakar Raja...</span>
+                    </div>
+                </div> -->
+
+            </div>
+        </div>
+        </div>
+    </main>
+    <footer>
+        <div class="seekbar">
+            <div class="circle"></div>
+        </div>
+
+        <div class="dj-parent">
+            <div class="song-info color-white"><!--song name--></div>
+
+            <div class="dj flex items-center">
+                <div class="remix-div"><img src="assets/remix.svg" class=" remix-logo footer-logo-size" alt=""></div>
+                <div class="prev-div"><img src="assets/pre.svg" alt="" class=" prev-logo footer-logo-size" id="prev">
+                </div>
+                <div class="play-footer-div justify-center items-center"><img src="assets/play.svg" alt=""
+                        class="play-footer-svg footer-logo-size" id="play"></div>
+                <div class="next-div"><img src="assets/next.svg" class=" next-logo footer-logo-size" alt="" id="next">
+                </div>
+                <div class="repeat-div"><img src="assets/replay.svg" class=" footer-logo-size" alt=""></div>
+                <div class="vol-div"><img src="assets/volume.svg" alt="" class="vol-svg">
+                    <div class="range color-white flex justify-center">
+                        <input class="vol-range" type="range" title="range volume">
+                    </div>
+                </div>
+            </div>
+
+            <div class="song-time color-white">00:00 / 00:00</div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
